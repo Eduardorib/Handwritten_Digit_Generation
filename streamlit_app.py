@@ -8,4 +8,4 @@ st.write("Generated Images:")
 cols = st.columns(5)
 for i in range(5):
     with cols[i]:
-        st.image("https://via.placeholder.com/150", caption=f"Image {i+1}", use_column_width=True)
+        st.image("https://via.placeholder.com/150", caption=f"Image {i+1}", use_container_width=True)
